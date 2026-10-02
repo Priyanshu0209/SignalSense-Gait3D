@@ -1,0 +1,60 @@
+{
+    "models": {
+        "3ce00ebd-737f-4244-b021-05c4fa036032": {
+            "id": "3ce00ebd-737f-4244-b021-05c4fa036032",
+            "name": "Baseline_RF_Model",
+            "algorithm": "Random Forest",
+            "training_date": "2026-07-30T07:20:18.819690+00:00",
+            "dataset": "dataset_office_room_A",
+            "accuracy": 92.4,
+            "version": "v1.0.0",
+            "status": "Inactive",
+            "filepath": null
+        },
+        "82e790ed-2136-4b19-a2c4-bacb04375b1c": {
+            "id": "82e790ed-2136-4b19-a2c4-bacb04375b1c",
+            "name": "Support_Vector_Regressor_202607301504",
+            "algorithm": "SVR",
+            "training_date": "2026-07-30T09:34:15.812100+00:00",
+            "dataset": "dataset_combined_yesterday",
+            "accuracy": 96.8,
+            "version": "v1.1",
+            "status": "Inactive",
+            "filepath": "/home/priyanshu/Projects/SignalSense-Gait3D/data/models/rf_model_82e790ed-2136-4b19-a2c4-bacb04375b1c.joblib"
+        },
+        "c722224f-7411-4b5b-aacf-6a2db02d5040": {
+            "id": "c722224f-7411-4b5b-aacf-6a2db02d5040",
+            "name": "Random_Forest_Model_202607301514",
+            "algorithm": "Random Forest",
+            "training_date": "2026-07-30T09:44:50.183032+00:00",
+            "dataset": "dataset_combined_yesterday",
+            "accuracy": 92.4,
+            "version": "v1.0",
+            "status": "Inactive",
+            "filepath": "/home/priyanshu/Projects/SignalSense-Gait3D/data/models/rf_model_c722224f-7411-4b5b-aacf-6a2db02d5040.joblib"
+        },
+        "f8227e1a-e0ce-44fa-b945-d10c572dc3e4": {
+            "id": "f8227e1a-e0ce-44fa-b945-d10c572dc3e4",
+            "name": "Random_Forest_Model_202607301519",
+            "algorithm": "Random Forest",
+            "training_date": "2026-07-30T09:49:53.592373+00:00",
+            "dataset": "dataset_combined_yesterday",
+            "accuracy": 92.4,
+            "version": "v1.0",
+            "status": "Inactive",
+            "filepath": "/home/priyanshu/Projects/SignalSense-Gait3D/data/models/rf_model_f8227e1a-e0ce-44fa-b945-d10c572dc3e4.joblib"
+        },
+        "31cf1c25-bf95-4d02-af55-605422f59f16": {
+            "id": "31cf1c25-bf95-4d02-af55-605422f59f16",
+            "name": "Random_Forest_Model_202607301522",
+            "algorithm": "Random Forest",
+            "training_date": "2026-07-30T09:52:02.675085+00:00",
+            "dataset": "dataset_combined_yesterday",
+            "accuracy": 92.4,
+            "version": "v1.0",
+            "status": "Active",
+            "filepath": "/home/priyanshu/Projects/SignalSense-Gait3D/data/models/rf_model_31cf1c25-bf95-4d02-af55-605422f59f16.joblib"
+        }
+    },
+    "active_model_id": "31cf1c25-bf95-4d02-af55-605422f59f16"
+}

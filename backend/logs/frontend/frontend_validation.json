@@ -1,0 +1,14 @@
+{
+  "Total Validations": 249,
+  "Passed Validations": 0,
+  "Failed Validations": 249,
+  "Validation Success Rate": 0.0,
+  "Missing Properties": 0,
+  "Undefined Values": 0,
+  "Null Values": 0,
+  "Rendering Errors": 0,
+  "Chart Errors": 249,
+  "Timeline Errors": 0,
+  "Most Failed Component": "RSSI Chart",
+  "Most Failed Property": "rssi"
+}

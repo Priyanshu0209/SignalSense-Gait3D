@@ -1,0 +1,11 @@
+{
+  "Total Missing Fields": 6303,
+  "Total Devices Checked": 573,
+  "Missing Percentage": 57.89,
+  "Most Missing Field": "Manufacturer",
+  "Most Affected Device": "0E:81:49:3E:D5:01",
+  "Most Affected Layer": "Discovery Worker",
+  "Severity Distribution": {
+    "MEDIUM": 6303
+  }
+}

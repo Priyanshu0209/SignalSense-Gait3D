@@ -1,0 +1,70 @@
+# --- Python Runtime & Caches ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+*.tmp
+*.temp
+
+# --- Virtual Environments ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- Databases & Persistent Runtime Artifacts ---
+*.db
+*.sqlite
+*.sqlite3
+data/*.db
+data/datasets/*.csv
+data/datasets/*.json
+!data/datasets/.gitkeep
+
+# --- Centralized Twelve-Factor Application Logging ---
+logs/*
+!logs/.gitkeep
+*.log
+*.csv.1
+*.csv.2
+*.csv.3
+*.csv.4
+*.csv.5
+
+# --- Frontend Build Bundles (React / Vite) ---
+node_modules/
+frontend/node_modules/
+dist/
+dist-ssr/
+frontend/dist/
+build/
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# --- Environment Configuration & Secrets ---
+.env
+*.env
+.env.local
+.env.test
+.env.production
+!.env.example
+
+# --- Editor Caches & OS Artifacts ---
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

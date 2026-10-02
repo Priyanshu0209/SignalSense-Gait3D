@@ -1,0 +1,24 @@
+{
+  "plugin_id": "netgear_stock",
+  "name": "NETGEAR Stock Firmware Plugin",
+  "vendor": "NETGEAR",
+  "version": "1.0.0",
+  "author": "SignalSense Architecture Team",
+  "description": "Extracts telemetry from stock Netgear firmware using Web UI parsing.",
+  "license": "Proprietary",
+  "capabilities": [
+    "Device Discovery",
+    "Telemetry"
+  ],
+  "supported_hardware": [
+    "NETGEAR R6220",
+    "Generic NETGEAR Stock"
+  ],
+  "supported_firmware": [
+    "V1.1.0.64_1.0.1IN"
+  ],
+  "required_permissions": [
+    "network"
+  ],
+  "min_sdk_version": "1.0.0"
+}

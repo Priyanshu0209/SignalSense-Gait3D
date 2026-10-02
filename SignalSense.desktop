@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=SignalSense
+GenericName=Wi-Fi Analytics
+Comment=SignalSense Enterprise Wi-Fi Digital Twin & Analytics
+Exec=/home/priyanshu/Projects/SignalSense-Gait3D/SignalSense.sh
+Icon=/home/priyanshu/Projects/SignalSense-Gait3D/frontend/public/vite.svg
+Terminal=false
+Categories=Network;Science;Education;
+StartupNotify=true
+Keywords=wifi;network;analytics;gait;sensor;
