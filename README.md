@@ -22,3 +22,7 @@ docker-compose up -d
 
 ### Manual Development Setup
 See `docs/developer_guide.md` for detailed instructions on running the FastAPI backend and React frontend locally.
+
+## Reports and Presentations
+- [SignalSense-Gait3D Final Report](assets/documents/signalsense-gait3d-report.pdf)
+- [SignalSense-Gait3D Research Presentation](assets/documents/signalsense-gait3d-presentation.pptx)
